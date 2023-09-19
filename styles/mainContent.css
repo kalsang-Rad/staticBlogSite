@@ -1,0 +1,29 @@
+
+/* Main Body Styling */
+.content-wrapper {
+    margin:0 auto; 
+    max-width: 75ch;
+    font-size: 1.1rem;
+}
+
+.article-header {
+    font-size: 1.5rem;
+}
+
+.img {
+    max-width: 75ch;
+    height: auto;
+    display: block;
+}
+
+small {
+    color:gray;
+    font-family: sans-serif;
+}
+
+/* Media queries */
+@media (max-width:650px) {
+    .img {
+        max-width: 90vw;
+    }
+}
